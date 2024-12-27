@@ -1,0 +1,9 @@
+The solution involves adding a missing semicolon after the `background-size` property to correctly separate the declarations.
+
+```css
+.container {
+  background-image: url('image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+```
